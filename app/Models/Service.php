@@ -14,15 +14,7 @@ class Service extends Model
     /**
      * @var list<string>
      */
-    protected $fillable = [
-        'service_type_id',
-        'name',
-        'code',
-        'base_price',
-        'currency',
-        'discount_percent',
-        'is_active',
-    ];
+    protected $fillable = ['service_type_id', 'name', 'code', 'base_price', 'currency', 'discount_percent', 'is_active'];
 
     /**
      * @return array<string, string>

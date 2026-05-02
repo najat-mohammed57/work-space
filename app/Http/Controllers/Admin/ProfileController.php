@@ -2,6 +2,7 @@
 
 namespace App\Http\Controllers\Admin;
 
+use App\Models\User;
 use App\Http\Controllers\Controller;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Auth;
@@ -34,6 +35,7 @@ class ProfileController extends Controller
                     'email' => $request->email,
                 ]);
             });
+
         } catch (UniqueConstraintViolationException $e) {
             throw ValidationException::withMessages([
                 'email' => __('This email is already registered.'),
@@ -88,7 +90,7 @@ class ProfileController extends Controller
 
         try {
             DB::transaction(function () use ($request): void {
-                \App\Models\User::create([
+                User::create([
                     'name' => $request->name,
                     'email' => $request->email,
                     'password' => Hash::make($request->password),

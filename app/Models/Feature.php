@@ -11,10 +11,7 @@ class Feature extends Model
     /**
      * @var list<string>
      */
-    protected $fillable = [
-        'name',
-        'applicable_to',
-    ];
+    protected $fillable = ['name', 'applicable_to'];
 
     /**
      * @return array<string, string>

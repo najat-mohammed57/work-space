@@ -36,7 +36,7 @@ class SessionAuthController extends Controller
         $request->session()->regenerate();
 
         if ($request->expectsJson()) {
-            /** @var User $user */
+            /** @var User $user */ 
             $user = Auth::user();
 
             return response()->json([

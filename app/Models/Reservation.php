@@ -14,15 +14,7 @@ class Reservation extends Model
     /**
      * @var list<string>
      */
-    protected $fillable = [
-        'service_id',
-        'customer_id',
-        'starts_at',
-        'ends_at',
-        'status',
-        'total_amount',
-        'notes',
-    ];
+    protected $fillable = ['service_id', 'customer_id', 'starts_at', 'ends_at', 'status', 'total_amount', 'notes'];
 
     /**
      * @return array<string, string>

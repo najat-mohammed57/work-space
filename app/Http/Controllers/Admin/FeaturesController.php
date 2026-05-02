@@ -17,7 +17,7 @@ class FeaturesController extends Controller
         $features = Feature::query()
             ->withCount('services')
             ->orderBy('name')
-            ->paginate(20);
+            ->paginate(10);
 
         return view('admin.features.index', compact('features'));
     }

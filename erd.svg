@@ -1,0 +1,365 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1590" height="1358" viewBox="30 30 1590 1358">
+  <rect x="30" y="30" width="1590" height="1358" fill="#090912"/>
+  <g class="rel-group" data-src="Customers" data-tgt="Reservations" data-rel-type="hasMany" data-rel-kind="eloquent" style="pointer-events: auto;"><path d="M1260 86 L1260 5 Q1260 -3 1252 -3 L788 -3 Q780 -3 780 5 L780 1066" fill="none" stroke="transparent" stroke-width="12"></path><path d="M1260 86 L1260 5 Q1260 -3 1252 -3 L788 -3 Q780 -3 780 5 L780 1066" fill="none" stroke="#4ec9b0" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="5 3"></path><line x1="1246" y1="79" x2="1246" y2="93" stroke="#4ec9b0" stroke-width="1.5" stroke-linecap="round"></line><line x1="1239" y1="79" x2="1239" y2="93" stroke="#4ec9b0" stroke-width="1.5" stroke-linecap="round"></line><line x1="794" y1="1059" x2="794" y2="1073" stroke="#4ec9b0" stroke-width="1.5" stroke-linecap="round"></line><line x1="794" y1="1059" x2="780" y2="1066" stroke="#4ec9b0" stroke-width="1.5" stroke-linecap="round"></line><line x1="794" y1="1073" x2="780" y2="1066" stroke="#4ec9b0" stroke-width="1.5" stroke-linecap="round"></line></g>
+  <g class="rel-group" data-src="ServiceTypes" data-tgt="ServiceCategories" data-rel-type="service_category_id → service_categories.id" data-rel-kind="fk" style="pointer-events: auto;"><path d="M460 576 L428 576 Q420 576 420 576 L420 576 Q420 576 412 576 L380 576" fill="none" stroke="transparent" stroke-width="12"></path><path d="M460 576 L428 576 Q420 576 420 576 L420 576 Q420 576 412 576 L380 576" fill="none" stroke="#4a9edd" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path><line x1="446" y1="569" x2="446" y2="583" stroke="#4a9edd" stroke-width="1.5" stroke-linecap="round"></line><line x1="446" y1="569" x2="460" y2="576" stroke="#4a9edd" stroke-width="1.5" stroke-linecap="round"></line><line x1="446" y1="583" x2="460" y2="576" stroke="#4a9edd" stroke-width="1.5" stroke-linecap="round"></line><line x1="394" y1="569" x2="394" y2="583" stroke="#4a9edd" stroke-width="1.5" stroke-linecap="round"></line><line x1="401" y1="569" x2="401" y2="583" stroke="#4a9edd" stroke-width="1.5" stroke-linecap="round"></line></g>
+  <g class="rel-group" data-src="ServiceTypes" data-tgt="Services" data-rel-type="hasMany" data-rel-kind="eloquent" style="pointer-events: auto;"><path d="M780 576 L780 5 Q780 -3 788 -3 L1252 -3 Q1260 -3 1260 5 L1260 576" fill="none" stroke="transparent" stroke-width="12"></path><path d="M780 576 L780 5 Q780 -3 788 -3 L1252 -3 Q1260 -3 1260 5 L1260 576" fill="none" stroke="#4ec9b0" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="5 3"></path><line x1="794" y1="569" x2="794" y2="583" stroke="#4ec9b0" stroke-width="1.5" stroke-linecap="round"></line><line x1="801" y1="569" x2="801" y2="583" stroke="#4ec9b0" stroke-width="1.5" stroke-linecap="round"></line><line x1="1246" y1="569" x2="1246" y2="583" stroke="#4ec9b0" stroke-width="1.5" stroke-linecap="round"></line><line x1="1246" y1="569" x2="1260" y2="576" stroke="#4ec9b0" stroke-width="1.5" stroke-linecap="round"></line><line x1="1246" y1="583" x2="1260" y2="576" stroke="#4ec9b0" stroke-width="1.5" stroke-linecap="round"></line></g>
+  <g class="rel-group" data-src="Features" data-tgt="Services" data-rel-type="belongsToMany" data-rel-kind="eloquent" style="pointer-events: auto;"><path d="M1180 576 L1212 576 Q1220 576 1220 576 L1220 576 Q1220 576 1228 576 L1260 576" fill="none" stroke="transparent" stroke-width="12"></path><path d="M1180 576 L1212 576 Q1220 576 1220 576 L1220 576 Q1220 576 1228 576 L1260 576" fill="none" stroke="#4ec9b0" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="5 3"></path><line x1="1194" y1="569" x2="1194" y2="583" stroke="#4ec9b0" stroke-width="1.5" stroke-linecap="round"></line><line x1="1194" y1="569" x2="1180" y2="576" stroke="#4ec9b0" stroke-width="1.5" stroke-linecap="round"></line><line x1="1194" y1="583" x2="1180" y2="576" stroke="#4ec9b0" stroke-width="1.5" stroke-linecap="round"></line><line x1="1246" y1="569" x2="1246" y2="583" stroke="#4ec9b0" stroke-width="1.5" stroke-linecap="round"></line><line x1="1246" y1="569" x2="1260" y2="576" stroke="#4ec9b0" stroke-width="1.5" stroke-linecap="round"></line><line x1="1246" y1="583" x2="1260" y2="576" stroke="#4ec9b0" stroke-width="1.5" stroke-linecap="round"></line></g>
+  <g class="rel-group" data-src="Services" data-tgt="ServiceTypes" data-rel-type="service_type_id → service_types.id" data-rel-kind="fk" style="pointer-events: auto;"><path d="M1260 576 L1260 5 Q1260 -3 1252 -3 L788 -3 Q780 -3 780 5 L780 576" fill="none" stroke="transparent" stroke-width="12"></path><path d="M1260 576 L1260 5 Q1260 -3 1252 -3 L788 -3 Q780 -3 780 5 L780 576" fill="none" stroke="#4a9edd" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path><line x1="1246" y1="569" x2="1246" y2="583" stroke="#4a9edd" stroke-width="1.5" stroke-linecap="round"></line><line x1="1246" y1="569" x2="1260" y2="576" stroke="#4a9edd" stroke-width="1.5" stroke-linecap="round"></line><line x1="1246" y1="583" x2="1260" y2="576" stroke="#4a9edd" stroke-width="1.5" stroke-linecap="round"></line><line x1="794" y1="569" x2="794" y2="583" stroke="#4a9edd" stroke-width="1.5" stroke-linecap="round"></line><line x1="801" y1="569" x2="801" y2="583" stroke="#4a9edd" stroke-width="1.5" stroke-linecap="round"></line></g>
+  <g class="rel-group" data-src="Services" data-tgt="Features" data-rel-type="belongsToMany" data-rel-kind="eloquent" style="pointer-events: auto;"><path d="M1260 576 L1228 576 Q1220 576 1220 576 L1220 576 Q1220 576 1212 576 L1180 576" fill="none" stroke="transparent" stroke-width="12"></path><path d="M1260 576 L1228 576 Q1220 576 1220 576 L1220 576 Q1220 576 1212 576 L1180 576" fill="none" stroke="#4ec9b0" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="5 3"></path><line x1="1246" y1="569" x2="1246" y2="583" stroke="#4ec9b0" stroke-width="1.5" stroke-linecap="round"></line><line x1="1246" y1="569" x2="1260" y2="576" stroke="#4ec9b0" stroke-width="1.5" stroke-linecap="round"></line><line x1="1246" y1="583" x2="1260" y2="576" stroke="#4ec9b0" stroke-width="1.5" stroke-linecap="round"></line><line x1="1194" y1="569" x2="1194" y2="583" stroke="#4ec9b0" stroke-width="1.5" stroke-linecap="round"></line><line x1="1194" y1="569" x2="1180" y2="576" stroke="#4ec9b0" stroke-width="1.5" stroke-linecap="round"></line><line x1="1194" y1="583" x2="1180" y2="576" stroke="#4ec9b0" stroke-width="1.5" stroke-linecap="round"></line></g>
+  <g class="rel-group" data-src="Services" data-tgt="Reservations" data-rel-type="hasMany" data-rel-kind="eloquent" style="pointer-events: auto;"><path d="M1260 576 L1260 576 Q1260 576 1260 584 L1260 1058 Q1260 1066 1252 1066 L780 1066" fill="none" stroke="transparent" stroke-width="12"></path><path d="M1260 576 L1260 576 Q1260 576 1260 584 L1260 1058 Q1260 1066 1252 1066 L780 1066" fill="none" stroke="#4ec9b0" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="5 3"></path><line x1="1246" y1="569" x2="1246" y2="583" stroke="#4ec9b0" stroke-width="1.5" stroke-linecap="round"></line><line x1="1239" y1="569" x2="1239" y2="583" stroke="#4ec9b0" stroke-width="1.5" stroke-linecap="round"></line><line x1="794" y1="1059" x2="794" y2="1073" stroke="#4ec9b0" stroke-width="1.5" stroke-linecap="round"></line><line x1="794" y1="1059" x2="780" y2="1066" stroke="#4ec9b0" stroke-width="1.5" stroke-linecap="round"></line><line x1="794" y1="1073" x2="780" y2="1066" stroke="#4ec9b0" stroke-width="1.5" stroke-linecap="round"></line></g>
+  <g class="rel-group" data-src="FeatureService" data-tgt="Features" data-rel-type="feature_id → features.id" data-rel-kind="fk" style="pointer-events: auto;"><path d="M380 1066 L380 5 Q380 -3 388 -3 L852 -3 Q860 -3 860 5 L860 576" fill="none" stroke="transparent" stroke-width="12"></path><path d="M380 1066 L380 5 Q380 -3 388 -3 L852 -3 Q860 -3 860 5 L860 576" fill="none" stroke="#4a9edd" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path><line x1="394" y1="1059" x2="394" y2="1073" stroke="#4a9edd" stroke-width="1.5" stroke-linecap="round"></line><line x1="394" y1="1059" x2="380" y2="1066" stroke="#4a9edd" stroke-width="1.5" stroke-linecap="round"></line><line x1="394" y1="1073" x2="380" y2="1066" stroke="#4a9edd" stroke-width="1.5" stroke-linecap="round"></line><line x1="846" y1="569" x2="846" y2="583" stroke="#4a9edd" stroke-width="1.5" stroke-linecap="round"></line><line x1="839" y1="569" x2="839" y2="583" stroke="#4a9edd" stroke-width="1.5" stroke-linecap="round"></line></g>
+  <g class="rel-group" data-src="FeatureService" data-tgt="Services" data-rel-type="service_id → services.id" data-rel-kind="fk" style="pointer-events: auto;"><path d="M380 1066 L380 5 Q380 -3 388 -3 L1252 -3 Q1260 -3 1260 5 L1260 576" fill="none" stroke="transparent" stroke-width="12"></path><path d="M380 1066 L380 5 Q380 -3 388 -3 L1252 -3 Q1260 -3 1260 5 L1260 576" fill="none" stroke="#4a9edd" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path><line x1="394" y1="1059" x2="394" y2="1073" stroke="#4a9edd" stroke-width="1.5" stroke-linecap="round"></line><line x1="394" y1="1059" x2="380" y2="1066" stroke="#4a9edd" stroke-width="1.5" stroke-linecap="round"></line><line x1="394" y1="1073" x2="380" y2="1066" stroke="#4a9edd" stroke-width="1.5" stroke-linecap="round"></line><line x1="1246" y1="569" x2="1246" y2="583" stroke="#4a9edd" stroke-width="1.5" stroke-linecap="round"></line><line x1="1239" y1="569" x2="1239" y2="583" stroke="#4a9edd" stroke-width="1.5" stroke-linecap="round"></line></g>
+  <g class="rel-group" data-src="Reservations" data-tgt="Services" data-rel-type="service_id → services.id" data-rel-kind="fk" style="pointer-events: auto;"><path d="M780 1066 L1252 1066 Q1260 1066 1260 1058 L1260 584 Q1260 576 1260 576 L1260 576" fill="none" stroke="transparent" stroke-width="12"></path><path d="M780 1066 L1252 1066 Q1260 1066 1260 1058 L1260 584 Q1260 576 1260 576 L1260 576" fill="none" stroke="#4a9edd" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path><line x1="794" y1="1059" x2="794" y2="1073" stroke="#4a9edd" stroke-width="1.5" stroke-linecap="round"></line><line x1="794" y1="1059" x2="780" y2="1066" stroke="#4a9edd" stroke-width="1.5" stroke-linecap="round"></line><line x1="794" y1="1073" x2="780" y2="1066" stroke="#4a9edd" stroke-width="1.5" stroke-linecap="round"></line><line x1="1246" y1="569" x2="1246" y2="583" stroke="#4a9edd" stroke-width="1.5" stroke-linecap="round"></line><line x1="1239" y1="569" x2="1239" y2="583" stroke="#4a9edd" stroke-width="1.5" stroke-linecap="round"></line></g>
+  <g class="rel-group" data-src="Reservations" data-tgt="Customers" data-rel-type="customer_id → customers.id" data-rel-kind="fk" style="pointer-events: auto;"><path d="M780 1066 L780 5 Q780 -3 788 -3 L1252 -3 Q1260 -3 1260 5 L1260 86" fill="none" stroke="transparent" stroke-width="12"></path><path d="M780 1066 L780 5 Q780 -3 788 -3 L1252 -3 Q1260 -3 1260 5 L1260 86" fill="none" stroke="#4a9edd" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path><line x1="794" y1="1059" x2="794" y2="1073" stroke="#4a9edd" stroke-width="1.5" stroke-linecap="round"></line><line x1="794" y1="1059" x2="780" y2="1066" stroke="#4a9edd" stroke-width="1.5" stroke-linecap="round"></line><line x1="794" y1="1073" x2="780" y2="1066" stroke="#4a9edd" stroke-width="1.5" stroke-linecap="round"></line><line x1="1246" y1="79" x2="1246" y2="93" stroke="#4a9edd" stroke-width="1.5" stroke-linecap="round"></line><line x1="1239" y1="79" x2="1239" y2="93" stroke="#4a9edd" stroke-width="1.5" stroke-linecap="round"></line></g>
+  <g class="rel-group" data-src="Reservations" data-tgt="Services" data-rel-type="belongsTo" data-rel-kind="eloquent" style="pointer-events: auto;"><path d="M780 1066 L1252 1066 Q1260 1066 1260 1058 L1260 584 Q1260 576 1260 576 L1260 576" fill="none" stroke="transparent" stroke-width="12"></path><path d="M780 1066 L1252 1066 Q1260 1066 1260 1058 L1260 584 Q1260 576 1260 576 L1260 576" fill="none" stroke="#4ec9b0" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="5 3"></path><line x1="794" y1="1059" x2="794" y2="1073" stroke="#4ec9b0" stroke-width="1.5" stroke-linecap="round"></line><line x1="794" y1="1059" x2="780" y2="1066" stroke="#4ec9b0" stroke-width="1.5" stroke-linecap="round"></line><line x1="794" y1="1073" x2="780" y2="1066" stroke="#4ec9b0" stroke-width="1.5" stroke-linecap="round"></line><line x1="1246" y1="569" x2="1246" y2="583" stroke="#4ec9b0" stroke-width="1.5" stroke-linecap="round"></line><line x1="1239" y1="569" x2="1239" y2="583" stroke="#4ec9b0" stroke-width="1.5" stroke-linecap="round"></line></g>
+  <g class="rel-group" data-src="Reservations" data-tgt="Customers" data-rel-type="belongsTo" data-rel-kind="eloquent" style="pointer-events: auto;"><path d="M780 1066 L780 5 Q780 -3 788 -3 L1252 -3 Q1260 -3 1260 5 L1260 86" fill="none" stroke="transparent" stroke-width="12"></path><path d="M780 1066 L780 5 Q780 -3 788 -3 L1252 -3 Q1260 -3 1260 5 L1260 86" fill="none" stroke="#4ec9b0" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="5 3"></path><line x1="794" y1="1059" x2="794" y2="1073" stroke="#4ec9b0" stroke-width="1.5" stroke-linecap="round"></line><line x1="794" y1="1059" x2="780" y2="1066" stroke="#4ec9b0" stroke-width="1.5" stroke-linecap="round"></line><line x1="794" y1="1073" x2="780" y2="1066" stroke="#4ec9b0" stroke-width="1.5" stroke-linecap="round"></line><line x1="1246" y1="79" x2="1246" y2="93" stroke="#4ec9b0" stroke-width="1.5" stroke-linecap="round"></line><line x1="1239" y1="79" x2="1239" y2="93" stroke="#4ec9b0" stroke-width="1.5" stroke-linecap="round"></line></g>
+
+<rect x="60" y="60" width="320" height="442" rx="8" fill="#0f0f1e" stroke="#2e2e50" stroke-width="1"/>
+<rect x="60" y="60" width="4" height="442" rx="2" fill="#7c6af7"/>
+<text x="78" y="90" font-family="sans-serif" font-size="12" font-weight="bold" fill="#dde0f0" text-transform="uppercase">Users</text>
+<line x1="60" y1="104" x2="380" y2="104" stroke="#1e1e35"/>
+  <text x="72" y="136" font-family="monospace" font-size="11" fill="#dde0f0">
+    <tspan fill="#7878a0">[PK]</tspan>  id  <tspan fill="#7878a0">bigint</tspan>
+  </text>
+  <text x="72" y="158" font-family="monospace" font-size="11" fill="#dde0f0">
+    <tspan fill="#7878a0">[  ]</tspan>  name  <tspan fill="#7878a0">varchar</tspan>
+  </text>
+  <text x="72" y="180" font-family="monospace" font-size="11" fill="#dde0f0">
+    <tspan fill="#7878a0">[  ]</tspan>  email  <tspan fill="#7878a0">varchar</tspan>
+  </text>
+  <text x="72" y="202" font-family="monospace" font-size="11" fill="#dde0f0">
+    <tspan fill="#7878a0">[  ]</tspan>  email_verified_at  <tspan fill="#7878a0">timestamp</tspan>
+  </text>
+  <text x="72" y="224" font-family="monospace" font-size="11" fill="#dde0f0">
+    <tspan fill="#7878a0">[  ]</tspan>  password  <tspan fill="#7878a0">varchar</tspan>
+  </text>
+  <text x="72" y="246" font-family="monospace" font-size="11" fill="#dde0f0">
+    <tspan fill="#7878a0">[  ]</tspan>  remember_token  <tspan fill="#7878a0">string(100)</tspan>
+  </text>
+  <text x="72" y="268" font-family="monospace" font-size="11" fill="#dde0f0">
+    <tspan fill="#7878a0">[  ]</tspan>  created_at  <tspan fill="#7878a0">timestamp</tspan>
+  </text>
+  <text x="72" y="290" font-family="monospace" font-size="11" fill="#dde0f0">
+    <tspan fill="#7878a0">[  ]</tspan>  updated_at  <tspan fill="#7878a0">timestamp</tspan>
+  </text>
+  <text x="72" y="312" font-family="monospace" font-size="11" fill="#dde0f0">
+    <tspan fill="#7878a0">[  ]</tspan>  email  <tspan fill="#7878a0">varchar</tspan>
+  </text>
+  <text x="72" y="334" font-family="monospace" font-size="11" fill="#dde0f0">
+    <tspan fill="#7878a0">[  ]</tspan>  token  <tspan fill="#7878a0">varchar</tspan>
+  </text>
+  <text x="72" y="356" font-family="monospace" font-size="11" fill="#dde0f0">
+    <tspan fill="#7878a0">[  ]</tspan>  created_at  <tspan fill="#7878a0">timestamp</tspan>
+  </text>
+  <text x="72" y="378" font-family="monospace" font-size="11" fill="#dde0f0">
+    <tspan fill="#7878a0">[  ]</tspan>  id  <tspan fill="#7878a0">varchar</tspan>
+  </text>
+  <text x="72" y="400" font-family="monospace" font-size="11" fill="#dde0f0">
+    <tspan fill="#7878a0">[FK]</tspan>  user_id  <tspan fill="#7878a0">bigint unsigned</tspan>
+  </text>
+  <text x="72" y="422" font-family="monospace" font-size="11" fill="#dde0f0">
+    <tspan fill="#7878a0">[  ]</tspan>  ip_address  <tspan fill="#7878a0">varchar</tspan>
+  </text>
+  <text x="72" y="444" font-family="monospace" font-size="11" fill="#dde0f0">
+    <tspan fill="#7878a0">[  ]</tspan>  user_agent  <tspan fill="#7878a0">text</tspan>
+  </text>
+  <text x="72" y="466" font-family="monospace" font-size="11" fill="#dde0f0">
+    <tspan fill="#7878a0">[  ]</tspan>  payload  <tspan fill="#7878a0">longtext</tspan>
+  </text>
+  <text x="72" y="488" font-family="monospace" font-size="11" fill="#dde0f0">
+    <tspan fill="#7878a0">[  ]</tspan>  last_activity  <tspan fill="#7878a0">int</tspan>
+  </text>
+
+<rect x="460" y="60" width="320" height="200" rx="8" fill="#0f0f1e" stroke="#2e2e50" stroke-width="1"/>
+<rect x="460" y="60" width="4" height="200" rx="2" fill="#7c6af7"/>
+<text x="478" y="90" font-family="sans-serif" font-size="12" font-weight="bold" fill="#dde0f0" text-transform="uppercase">Cache</text>
+<line x1="460" y1="104" x2="780" y2="104" stroke="#1e1e35"/>
+  <text x="472" y="136" font-family="monospace" font-size="11" fill="#dde0f0">
+    <tspan fill="#7878a0">[  ]</tspan>  key  <tspan fill="#7878a0">varchar</tspan>
+  </text>
+  <text x="472" y="158" font-family="monospace" font-size="11" fill="#dde0f0">
+    <tspan fill="#7878a0">[  ]</tspan>  value  <tspan fill="#7878a0">mediumtext</tspan>
+  </text>
+  <text x="472" y="180" font-family="monospace" font-size="11" fill="#dde0f0">
+    <tspan fill="#7878a0">[  ]</tspan>  expiration  <tspan fill="#7878a0">bigint</tspan>
+  </text>
+  <text x="472" y="202" font-family="monospace" font-size="11" fill="#dde0f0">
+    <tspan fill="#7878a0">[  ]</tspan>  key  <tspan fill="#7878a0">varchar</tspan>
+  </text>
+  <text x="472" y="224" font-family="monospace" font-size="11" fill="#dde0f0">
+    <tspan fill="#7878a0">[  ]</tspan>  owner  <tspan fill="#7878a0">varchar</tspan>
+  </text>
+  <text x="472" y="246" font-family="monospace" font-size="11" fill="#dde0f0">
+    <tspan fill="#7878a0">[  ]</tspan>  expiration  <tspan fill="#7878a0">bigint</tspan>
+  </text>
+
+<rect x="860" y="60" width="320" height="596" rx="8" fill="#0f0f1e" stroke="#2e2e50" stroke-width="1"/>
+<rect x="860" y="60" width="4" height="596" rx="2" fill="#7c6af7"/>
+<text x="878" y="90" font-family="sans-serif" font-size="12" font-weight="bold" fill="#dde0f0" text-transform="uppercase">Jobs</text>
+<line x1="860" y1="104" x2="1180" y2="104" stroke="#1e1e35"/>
+  <text x="872" y="136" font-family="monospace" font-size="11" fill="#dde0f0">
+    <tspan fill="#7878a0">[PK]</tspan>  id  <tspan fill="#7878a0">bigint</tspan>
+  </text>
+  <text x="872" y="158" font-family="monospace" font-size="11" fill="#dde0f0">
+    <tspan fill="#7878a0">[  ]</tspan>  queue  <tspan fill="#7878a0">varchar</tspan>
+  </text>
+  <text x="872" y="180" font-family="monospace" font-size="11" fill="#dde0f0">
+    <tspan fill="#7878a0">[  ]</tspan>  payload  <tspan fill="#7878a0">longtext</tspan>
+  </text>
+  <text x="872" y="202" font-family="monospace" font-size="11" fill="#dde0f0">
+    <tspan fill="#7878a0">[  ]</tspan>  attempts  <tspan fill="#7878a0">unsignedTinyInteger</tspan>
+  </text>
+  <text x="872" y="224" font-family="monospace" font-size="11" fill="#dde0f0">
+    <tspan fill="#7878a0">[  ]</tspan>  reserved_at  <tspan fill="#7878a0">int unsigned</tspan>
+  </text>
+  <text x="872" y="246" font-family="monospace" font-size="11" fill="#dde0f0">
+    <tspan fill="#7878a0">[  ]</tspan>  available_at  <tspan fill="#7878a0">int unsigned</tspan>
+  </text>
+  <text x="872" y="268" font-family="monospace" font-size="11" fill="#dde0f0">
+    <tspan fill="#7878a0">[  ]</tspan>  created_at  <tspan fill="#7878a0">int unsigned</tspan>
+  </text>
+  <text x="872" y="290" font-family="monospace" font-size="11" fill="#dde0f0">
+    <tspan fill="#7878a0">[  ]</tspan>  id  <tspan fill="#7878a0">varchar</tspan>
+  </text>
+  <text x="872" y="312" font-family="monospace" font-size="11" fill="#dde0f0">
+    <tspan fill="#7878a0">[  ]</tspan>  name  <tspan fill="#7878a0">varchar</tspan>
+  </text>
+  <text x="872" y="334" font-family="monospace" font-size="11" fill="#dde0f0">
+    <tspan fill="#7878a0">[  ]</tspan>  total_jobs  <tspan fill="#7878a0">int</tspan>
+  </text>
+  <text x="872" y="356" font-family="monospace" font-size="11" fill="#dde0f0">
+    <tspan fill="#7878a0">[  ]</tspan>  pending_jobs  <tspan fill="#7878a0">int</tspan>
+  </text>
+  <text x="872" y="378" font-family="monospace" font-size="11" fill="#dde0f0">
+    <tspan fill="#7878a0">[  ]</tspan>  failed_jobs  <tspan fill="#7878a0">int</tspan>
+  </text>
+  <text x="872" y="400" font-family="monospace" font-size="11" fill="#dde0f0">
+    <tspan fill="#7878a0">[  ]</tspan>  failed_job_ids  <tspan fill="#7878a0">longtext</tspan>
+  </text>
+  <text x="872" y="422" font-family="monospace" font-size="11" fill="#dde0f0">
+    <tspan fill="#7878a0">[  ]</tspan>  options  <tspan fill="#7878a0">mediumtext</tspan>
+  </text>
+  <text x="872" y="444" font-family="monospace" font-size="11" fill="#dde0f0">
+    <tspan fill="#7878a0">[  ]</tspan>  cancelled_at  <tspan fill="#7878a0">int</tspan>
+  </text>
+  <text x="872" y="466" font-family="monospace" font-size="11" fill="#dde0f0">
+    <tspan fill="#7878a0">[  ]</tspan>  created_at  <tspan fill="#7878a0">int</tspan>
+  </text>
+  <text x="872" y="488" font-family="monospace" font-size="11" fill="#dde0f0">
+    <tspan fill="#7878a0">[  ]</tspan>  finished_at  <tspan fill="#7878a0">int</tspan>
+  </text>
+  <text x="872" y="510" font-family="monospace" font-size="11" fill="#dde0f0">
+    <tspan fill="#7878a0">[PK]</tspan>  id  <tspan fill="#7878a0">bigint</tspan>
+  </text>
+  <text x="872" y="532" font-family="monospace" font-size="11" fill="#dde0f0">
+    <tspan fill="#7878a0">[  ]</tspan>  uuid  <tspan fill="#7878a0">varchar</tspan>
+  </text>
+  <text x="872" y="554" font-family="monospace" font-size="11" fill="#dde0f0">
+    <tspan fill="#7878a0">[  ]</tspan>  connection  <tspan fill="#7878a0">text</tspan>
+  </text>
+  <text x="872" y="576" font-family="monospace" font-size="11" fill="#dde0f0">
+    <tspan fill="#7878a0">[  ]</tspan>  queue  <tspan fill="#7878a0">text</tspan>
+  </text>
+  <text x="872" y="598" font-family="monospace" font-size="11" fill="#dde0f0">
+    <tspan fill="#7878a0">[  ]</tspan>  payload  <tspan fill="#7878a0">longtext</tspan>
+  </text>
+  <text x="872" y="620" font-family="monospace" font-size="11" fill="#dde0f0">
+    <tspan fill="#7878a0">[  ]</tspan>  exception  <tspan fill="#7878a0">longtext</tspan>
+  </text>
+  <text x="872" y="642" font-family="monospace" font-size="11" fill="#dde0f0">
+    <tspan fill="#7878a0">[  ]</tspan>  failed_at  <tspan fill="#7878a0">timestamp</tspan>
+  </text>
+
+<rect x="1260" y="60" width="320" height="310" rx="8" fill="#0f0f1e" stroke="#2e2e50" stroke-width="1"/>
+<rect x="1260" y="60" width="4" height="310" rx="2" fill="#7c6af7"/>
+<text x="1278" y="90" font-family="sans-serif" font-size="12" font-weight="bold" fill="#dde0f0" text-transform="uppercase">Customers</text>
+<line x1="1260" y1="104" x2="1580" y2="104" stroke="#1e1e35"/>
+  <text x="1272" y="136" font-family="monospace" font-size="11" fill="#dde0f0">
+    <tspan fill="#7878a0">[PK]</tspan>  id  <tspan fill="#7878a0">bigint</tspan>
+  </text>
+  <text x="1272" y="158" font-family="monospace" font-size="11" fill="#dde0f0">
+    <tspan fill="#7878a0">[  ]</tspan>  name  <tspan fill="#7878a0">varchar</tspan>
+  </text>
+  <text x="1272" y="180" font-family="monospace" font-size="11" fill="#dde0f0">
+    <tspan fill="#7878a0">[  ]</tspan>  email  <tspan fill="#7878a0">varchar</tspan>
+  </text>
+  <text x="1272" y="202" font-family="monospace" font-size="11" fill="#dde0f0">
+    <tspan fill="#7878a0">[  ]</tspan>  password  <tspan fill="#7878a0">varchar</tspan>
+  </text>
+  <text x="1272" y="224" font-family="monospace" font-size="11" fill="#dde0f0">
+    <tspan fill="#7878a0">[  ]</tspan>  company_name  <tspan fill="#7878a0">varchar</tspan>
+  </text>
+  <text x="1272" y="246" font-family="monospace" font-size="11" fill="#dde0f0">
+    <tspan fill="#7878a0">[  ]</tspan>  job_title  <tspan fill="#7878a0">varchar</tspan>
+  </text>
+  <text x="1272" y="268" font-family="monospace" font-size="11" fill="#dde0f0">
+    <tspan fill="#7878a0">[  ]</tspan>  phone  <tspan fill="#7878a0">varchar</tspan>
+  </text>
+  <text x="1272" y="290" font-family="monospace" font-size="11" fill="#dde0f0">
+    <tspan fill="#7878a0">[  ]</tspan>  address  <tspan fill="#7878a0">text</tspan>
+  </text>
+  <text x="1272" y="312" font-family="monospace" font-size="11" fill="#dde0f0">
+    <tspan fill="#7878a0">[  ]</tspan>  notes  <tspan fill="#7878a0">text</tspan>
+  </text>
+  <text x="1272" y="334" font-family="monospace" font-size="11" fill="#dde0f0">
+    <tspan fill="#7878a0">[  ]</tspan>  created_at  <tspan fill="#7878a0">timestamp</tspan>
+  </text>
+  <text x="1272" y="356" font-family="monospace" font-size="11" fill="#dde0f0">
+    <tspan fill="#7878a0">[  ]</tspan>  updated_at  <tspan fill="#7878a0">timestamp</tspan>
+  </text>
+
+<rect x="60" y="550" width="320" height="178" rx="8" fill="#0f0f1e" stroke="#2e2e50" stroke-width="1"/>
+<rect x="60" y="550" width="4" height="178" rx="2" fill="#7c6af7"/>
+<text x="78" y="580" font-family="sans-serif" font-size="12" font-weight="bold" fill="#dde0f0" text-transform="uppercase">ServiceCategories</text>
+<line x1="60" y1="594" x2="380" y2="594" stroke="#1e1e35"/>
+  <text x="72" y="626" font-family="monospace" font-size="11" fill="#dde0f0">
+    <tspan fill="#7878a0">[PK]</tspan>  id  <tspan fill="#7878a0">bigint</tspan>
+  </text>
+  <text x="72" y="648" font-family="monospace" font-size="11" fill="#dde0f0">
+    <tspan fill="#7878a0">[  ]</tspan>  name  <tspan fill="#7878a0">varchar</tspan>
+  </text>
+  <text x="72" y="670" font-family="monospace" font-size="11" fill="#dde0f0">
+    <tspan fill="#7878a0">[  ]</tspan>  slug  <tspan fill="#7878a0">varchar</tspan>
+  </text>
+  <text x="72" y="692" font-family="monospace" font-size="11" fill="#dde0f0">
+    <tspan fill="#7878a0">[  ]</tspan>  created_at  <tspan fill="#7878a0">timestamp</tspan>
+  </text>
+  <text x="72" y="714" font-family="monospace" font-size="11" fill="#dde0f0">
+    <tspan fill="#7878a0">[  ]</tspan>  updated_at  <tspan fill="#7878a0">timestamp</tspan>
+  </text>
+
+<rect x="460" y="550" width="320" height="178" rx="8" fill="#0f0f1e" stroke="#2e2e50" stroke-width="1"/>
+<rect x="460" y="550" width="4" height="178" rx="2" fill="#7c6af7"/>
+<text x="478" y="580" font-family="sans-serif" font-size="12" font-weight="bold" fill="#dde0f0" text-transform="uppercase">ServiceTypes</text>
+<line x1="460" y1="594" x2="780" y2="594" stroke="#1e1e35"/>
+  <text x="472" y="626" font-family="monospace" font-size="11" fill="#dde0f0">
+    <tspan fill="#7878a0">[PK]</tspan>  id  <tspan fill="#7878a0">bigint</tspan>
+  </text>
+  <text x="472" y="648" font-family="monospace" font-size="11" fill="#dde0f0">
+    <tspan fill="#7878a0">[FK]</tspan>  service_category_id  <tspan fill="#7878a0">bigint unsigned</tspan>
+  </text>
+  <text x="472" y="670" font-family="monospace" font-size="11" fill="#dde0f0">
+    <tspan fill="#7878a0">[  ]</tspan>  name  <tspan fill="#7878a0">varchar</tspan>
+  </text>
+  <text x="472" y="692" font-family="monospace" font-size="11" fill="#dde0f0">
+    <tspan fill="#7878a0">[  ]</tspan>  created_at  <tspan fill="#7878a0">timestamp</tspan>
+  </text>
+  <text x="472" y="714" font-family="monospace" font-size="11" fill="#dde0f0">
+    <tspan fill="#7878a0">[  ]</tspan>  updated_at  <tspan fill="#7878a0">timestamp</tspan>
+  </text>
+
+<rect x="860" y="550" width="320" height="178" rx="8" fill="#0f0f1e" stroke="#2e2e50" stroke-width="1"/>
+<rect x="860" y="550" width="4" height="178" rx="2" fill="#7c6af7"/>
+<text x="878" y="580" font-family="sans-serif" font-size="12" font-weight="bold" fill="#dde0f0" text-transform="uppercase">Features</text>
+<line x1="860" y1="594" x2="1180" y2="594" stroke="#1e1e35"/>
+  <text x="872" y="626" font-family="monospace" font-size="11" fill="#dde0f0">
+    <tspan fill="#7878a0">[PK]</tspan>  id  <tspan fill="#7878a0">bigint</tspan>
+  </text>
+  <text x="872" y="648" font-family="monospace" font-size="11" fill="#dde0f0">
+    <tspan fill="#7878a0">[  ]</tspan>  name  <tspan fill="#7878a0">varchar</tspan>
+  </text>
+  <text x="872" y="670" font-family="monospace" font-size="11" fill="#dde0f0">
+    <tspan fill="#7878a0">[  ]</tspan>  applicable_to  <tspan fill="#7878a0">varchar</tspan>
+  </text>
+  <text x="872" y="692" font-family="monospace" font-size="11" fill="#dde0f0">
+    <tspan fill="#7878a0">[  ]</tspan>  created_at  <tspan fill="#7878a0">timestamp</tspan>
+  </text>
+  <text x="872" y="714" font-family="monospace" font-size="11" fill="#dde0f0">
+    <tspan fill="#7878a0">[  ]</tspan>  updated_at  <tspan fill="#7878a0">timestamp</tspan>
+  </text>
+
+<rect x="1260" y="550" width="320" height="288" rx="8" fill="#0f0f1e" stroke="#2e2e50" stroke-width="1"/>
+<rect x="1260" y="550" width="4" height="288" rx="2" fill="#7c6af7"/>
+<text x="1278" y="580" font-family="sans-serif" font-size="12" font-weight="bold" fill="#dde0f0" text-transform="uppercase">Services</text>
+<line x1="1260" y1="594" x2="1580" y2="594" stroke="#1e1e35"/>
+  <text x="1272" y="626" font-family="monospace" font-size="11" fill="#dde0f0">
+    <tspan fill="#7878a0">[PK]</tspan>  id  <tspan fill="#7878a0">bigint</tspan>
+  </text>
+  <text x="1272" y="648" font-family="monospace" font-size="11" fill="#dde0f0">
+    <tspan fill="#7878a0">[FK]</tspan>  service_type_id  <tspan fill="#7878a0">bigint unsigned</tspan>
+  </text>
+  <text x="1272" y="670" font-family="monospace" font-size="11" fill="#dde0f0">
+    <tspan fill="#7878a0">[  ]</tspan>  name  <tspan fill="#7878a0">varchar</tspan>
+  </text>
+  <text x="1272" y="692" font-family="monospace" font-size="11" fill="#dde0f0">
+    <tspan fill="#7878a0">[  ]</tspan>  code  <tspan fill="#7878a0">varchar</tspan>
+  </text>
+  <text x="1272" y="714" font-family="monospace" font-size="11" fill="#dde0f0">
+    <tspan fill="#7878a0">[  ]</tspan>  base_price  <tspan fill="#7878a0">decimal</tspan>
+  </text>
+  <text x="1272" y="736" font-family="monospace" font-size="11" fill="#dde0f0">
+    <tspan fill="#7878a0">[  ]</tspan>  currency  <tspan fill="#7878a0">varchar</tspan>
+  </text>
+  <text x="1272" y="758" font-family="monospace" font-size="11" fill="#dde0f0">
+    <tspan fill="#7878a0">[  ]</tspan>  discount_percent  <tspan fill="#7878a0">decimal</tspan>
+  </text>
+  <text x="1272" y="780" font-family="monospace" font-size="11" fill="#dde0f0">
+    <tspan fill="#7878a0">[  ]</tspan>  is_active  <tspan fill="#7878a0">boolean</tspan>
+  </text>
+  <text x="1272" y="802" font-family="monospace" font-size="11" fill="#dde0f0">
+    <tspan fill="#7878a0">[  ]</tspan>  created_at  <tspan fill="#7878a0">timestamp</tspan>
+  </text>
+  <text x="1272" y="824" font-family="monospace" font-size="11" fill="#dde0f0">
+    <tspan fill="#7878a0">[  ]</tspan>  updated_at  <tspan fill="#7878a0">timestamp</tspan>
+  </text>
+
+<rect x="60" y="1040" width="320" height="178" rx="8" fill="#0f0f1e" stroke="#2e2e50" stroke-width="1"/>
+<rect x="60" y="1040" width="4" height="178" rx="2" fill="#7c6af7"/>
+<text x="78" y="1070" font-family="sans-serif" font-size="12" font-weight="bold" fill="#dde0f0" text-transform="uppercase">FeatureService</text>
+<line x1="60" y1="1084" x2="380" y2="1084" stroke="#1e1e35"/>
+  <text x="72" y="1116" font-family="monospace" font-size="11" fill="#dde0f0">
+    <tspan fill="#7878a0">[PK]</tspan>  id  <tspan fill="#7878a0">bigint</tspan>
+  </text>
+  <text x="72" y="1138" font-family="monospace" font-size="11" fill="#dde0f0">
+    <tspan fill="#7878a0">[FK]</tspan>  feature_id  <tspan fill="#7878a0">bigint unsigned</tspan>
+  </text>
+  <text x="72" y="1160" font-family="monospace" font-size="11" fill="#dde0f0">
+    <tspan fill="#7878a0">[FK]</tspan>  service_id  <tspan fill="#7878a0">bigint unsigned</tspan>
+  </text>
+  <text x="72" y="1182" font-family="monospace" font-size="11" fill="#dde0f0">
+    <tspan fill="#7878a0">[  ]</tspan>  created_at  <tspan fill="#7878a0">timestamp</tspan>
+  </text>
+  <text x="72" y="1204" font-family="monospace" font-size="11" fill="#dde0f0">
+    <tspan fill="#7878a0">[  ]</tspan>  updated_at  <tspan fill="#7878a0">timestamp</tspan>
+  </text>
+
+<rect x="460" y="1040" width="320" height="310" rx="8" fill="#0f0f1e" stroke="#2e2e50" stroke-width="1"/>
+<rect x="460" y="1040" width="4" height="310" rx="2" fill="#7c6af7"/>
+<text x="478" y="1070" font-family="sans-serif" font-size="12" font-weight="bold" fill="#dde0f0" text-transform="uppercase">Reservations</text>
+<line x1="460" y1="1084" x2="780" y2="1084" stroke="#1e1e35"/>
+  <text x="472" y="1116" font-family="monospace" font-size="11" fill="#dde0f0">
+    <tspan fill="#7878a0">[PK]</tspan>  id  <tspan fill="#7878a0">bigint</tspan>
+  </text>
+  <text x="472" y="1138" font-family="monospace" font-size="11" fill="#dde0f0">
+    <tspan fill="#7878a0">[FK]</tspan>  service_id  <tspan fill="#7878a0">bigint unsigned</tspan>
+  </text>
+  <text x="472" y="1160" font-family="monospace" font-size="11" fill="#dde0f0">
+    <tspan fill="#7878a0">[FK]</tspan>  customer_id  <tspan fill="#7878a0">bigint unsigned</tspan>
+  </text>
+  <text x="472" y="1182" font-family="monospace" font-size="11" fill="#dde0f0">
+    <tspan fill="#7878a0">[  ]</tspan>  starts_at  <tspan fill="#7878a0">datetime</tspan>
+  </text>
+  <text x="472" y="1204" font-family="monospace" font-size="11" fill="#dde0f0">
+    <tspan fill="#7878a0">[  ]</tspan>  ends_at  <tspan fill="#7878a0">datetime</tspan>
+  </text>
+  <text x="472" y="1226" font-family="monospace" font-size="11" fill="#dde0f0">
+    <tspan fill="#7878a0">[  ]</tspan>  status  <tspan fill="#7878a0">varchar</tspan>
+  </text>
+  <text x="472" y="1248" font-family="monospace" font-size="11" fill="#dde0f0">
+    <tspan fill="#7878a0">[  ]</tspan>  total_amount  <tspan fill="#7878a0">decimal</tspan>
+  </text>
+  <text x="472" y="1270" font-family="monospace" font-size="11" fill="#dde0f0">
+    <tspan fill="#7878a0">[  ]</tspan>  notes  <tspan fill="#7878a0">text</tspan>
+  </text>
+  <text x="472" y="1292" font-family="monospace" font-size="11" fill="#dde0f0">
+    <tspan fill="#7878a0">[  ]</tspan>  created_at  <tspan fill="#7878a0">timestamp</tspan>
+  </text>
+  <text x="472" y="1314" font-family="monospace" font-size="11" fill="#dde0f0">
+    <tspan fill="#7878a0">[  ]</tspan>  updated_at  <tspan fill="#7878a0">timestamp</tspan>
+  </text>
+  <text x="472" y="1336" font-family="monospace" font-size="11" fill="#dde0f0">
+    <tspan fill="#7878a0">[  ]</tspan>  deleted_at  <tspan fill="#7878a0">timestamp</tspan>
+  </text>
+
+</svg>

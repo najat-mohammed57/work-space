@@ -119,7 +119,7 @@ class ReservationsController extends Controller
     }
 
     public function forceDestroy(Reservation $reservation): RedirectResponse
-    {
+    { 
         $this->authorize('forceDelete', $reservation);
 
         $reservation->forceDelete();

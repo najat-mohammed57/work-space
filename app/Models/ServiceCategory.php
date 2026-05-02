@@ -10,10 +10,7 @@ class ServiceCategory extends Model
     /**
      * @var list<string>
      */
-    protected $fillable = [
-        'name',
-        'slug',
-    ];
+    protected $fillable = ['name', 'slug'];
 
     /**
      * @return HasMany<ServiceType, $this>

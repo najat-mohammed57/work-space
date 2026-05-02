@@ -27,4 +27,4 @@ class DashboardController extends Controller
             'featureCount' => $featureCount,
         ]);
     }
-}
+} 

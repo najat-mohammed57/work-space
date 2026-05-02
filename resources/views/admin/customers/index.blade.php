@@ -23,7 +23,7 @@
                         <th>{{ __('Name') }}</th>
                         <th>{{ __('Email') }}</th>
                         <th>{{ __('Company') }}</th>
-                        <th>{{ __('Job title') }}</th>
+                        <th>{{ __('Job Title') }}</th> <th>{{ __('Notes') }}</th>
                         <th>{{ __('Phone') }}</th>
                         <th class="text-end">{{ __('Actions') }}</th>
                     </tr>
@@ -34,7 +34,17 @@
                             <td>{{ $customer->name }}</td>
                             <td>{{ $customer->email }}</td>
                             <td>{{ $customer->company_name ?? '—' }}</td>
-                            <td>{{ $customer->job_title ?? '—' }}</td>
+                            <td>{{ $customer->job_title ?? '—'}}</td>
+                            <td>
+                                @if($customer->notes)
+                                    <span data-bs-toggle="tooltip" data-bs-title="{{ $customer->notes }}">
+                                        <i class="bi bi-info-circle-fill text-primary"></i>
+                                        {{ Str::limit($customer->notes, 10) }}
+                                    </span>
+                                @else
+                                    —
+                                @endif
+                            </td>
                             <td>{{ $customer->phone ?? '—' }}</td>
                             <td class="text-end text-nowrap">
                                 <a href="{{ route('admin.customers.edit', $customer) }}" class="btn btn-sm btn-outline-secondary">{{ __('Edit') }}</a>
@@ -52,7 +62,7 @@
                         </tr>
                     @empty
                         <tr>
-                            <td colspan="6" class="text-center text-secondary py-4">{{ __('No customers yet.') }}</td>
+                            <td colspan="7" class="text-center text-secondary py-4">{{ __('No customers yet.') }}</td>
                         </tr>
                     @endforelse
                 </tbody>
@@ -63,3 +73,13 @@
         @endif
     </div>
 @endsection
+
+@push('scripts')
+<script>
+
+    document.addEventListener('DOMContentLoaded', function () {
+        const tooltipTriggerList = document.querySelectorAll('[data-bs-toggle="tooltip"]')
+        const tooltipList = [...tooltipTriggerList].map(tooltipTriggerEl => new bootstrap.Tooltip(tooltipTriggerEl))
+    })
+</script>
+@endpush

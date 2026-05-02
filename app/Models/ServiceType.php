@@ -11,10 +11,7 @@ class ServiceType extends Model
     /**
      * @var list<string>
      */
-    protected $fillable = [
-        'service_category_id',
-        'name',
-    ];
+    protected $fillable = ['service_category_id', 'name'];
 
     /**
      * @return BelongsTo<ServiceCategory, $this>
