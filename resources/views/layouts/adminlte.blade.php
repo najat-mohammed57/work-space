@@ -16,6 +16,11 @@
                         <li class="nav-item d-none d-md-block">
                             <a href="{{ route('admin.dashboard') }}" class="nav-link">{{ __('Dashboard') }}</a>
                         </li>
+                        <li class="nav-item d-none d-md-block">
+                  <a href="{{ url('/') }}" class="nav-link">
+                        | Visit Website
+                </a>
+               </li>
                     </ul>
                    <ul class="navbar-nav ms-auto">
                  <li class="nav-item dropdown user-menu">
@@ -29,7 +34,6 @@
                 <i class="bi bi-person-badge fs-2"></i>
                 <p class="mb-0 small">{{ auth()->user()->email }}</p>
             </li>
-
             <li>
                 <a href="{{ route('admin.profile.edit') }}" class="dropdown-item py-2">
                     <i class="bi bi-person-gear me-2"></i> Edit Your Profile

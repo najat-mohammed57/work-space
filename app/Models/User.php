@@ -2,21 +2,26 @@
 
 namespace App\Models;
 
-// use Illuminate\Contracts\Auth\MustVerifyEmail;
 use Illuminate\Database\Eloquent\Attributes\Fillable;
 use Illuminate\Database\Eloquent\Attributes\Hidden;
 use Illuminate\Foundation\Auth\User as Authenticatable;
 use Illuminate\Notifications\Notifiable;
-
-#[Fillable(['name', 'email', 'password'])]
+use Illuminate\Database\Eloquent\Relations\HasOne;
+#[Fillable(['name', 'email', 'password', 'role'])]
 #[Hidden(['password', 'remember_token'])]
 class User extends Authenticatable
 {
     use Notifiable;
 
     /**
-     * @return array<string, string>
+     * Define the relationship between User and Customer.
+     * This allows us to access $user->customer
      */
+    public function customer(): HasOne
+    {
+        return $this->hasOne(Customer::class ,'user_id');
+    }
+
     protected function casts(): array
     {
         return [

@@ -19,11 +19,13 @@ class WorkspaceSeeder extends Seeder
      */
     public function run(): void
     {
+        
         User::query()->updateOrCreate(
             ['email' => 'manager@example.com'],
             [
                 'name' => 'Workspace Manager',
                 'password' => Hash::make((string) env('MANAGER_PASSWORD', 'password')),
+                'is_admin' => true,
             ],
         );
 
