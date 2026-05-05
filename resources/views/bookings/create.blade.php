@@ -4,7 +4,7 @@
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.10.5/font/bootstrap-icons.min.css">
 
 <style>
-    /* Hero Section - ألوان زرقاء غامقة + أسود */
+
     .booking-hero {
         background: linear-gradient(135deg, #0061ff 0%, #0045b5 50%, #003080 100%);
         position: relative;
@@ -17,7 +17,7 @@
         margin-bottom: -50px;
     }
 
-    /* أشكال هندسية خلفية */
+
     .hero-shape {
         position: absolute;
         background: rgba(255, 255, 255, 0.08);
@@ -73,7 +73,7 @@
 
     .rounded-15 { border-radius: 15px !important; }
 
-    /* تعديل ستايل الزر لمنع اللون الأسود وحركة الصاروخ */
+
     .gradient-btn {
         background: linear-gradient(135deg, #0061ff 0%, #0045b5 100%) !important;
         border: none;
@@ -113,7 +113,6 @@
         background: linear-gradient(135deg, #0072ff 0%, #0052d4 100%) !important;
     }
 
-    /* لضمان عدم تغير اللون للأسود عند الضغط */
     .gradient-btn:active, .gradient-btn:focus {
         background: linear-gradient(135deg, #0045b5 0%, #003080 100%) !important;
         color: white !important;
