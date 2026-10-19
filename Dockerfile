@@ -12,10 +12,9 @@ RUN a2enmod rewrite
 
 WORKDIR /var/www/html
 
-COPY composer.json ./
+COPY composer.json composer.lock ./
 
-RUN composer update --no-dev --optimize-autoloader --no-interaction --ignore-platform-reqs
-
+RUN composer install --no-dev --optimize-autoloader --no-interaction
 COPY . /var/www/html/
 
 RUN chmod -R 777 storage bootstrap/cache
