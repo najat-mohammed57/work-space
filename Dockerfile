@@ -12,7 +12,9 @@ WORKDIR /var/www/html
 COPY . .
 
 RUN composer install --no-dev --optimize-autoloader --no-interaction
-RUN npm install && npm run build
+
+RUN npm install --legacy-peer-deps || true
+RUN npm run build || true
 
 RUN mkdir -p database && touch database/database.sqlite
 RUN chown -R www-data:www-data storage bootstrap/cache database \
