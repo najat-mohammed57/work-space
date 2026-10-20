@@ -25,4 +25,4 @@ RUN sed -ri -e 's!/var/www/html!${APACHE_DOCUMENT_ROOT}!g' /etc/apache2/sites-av
 RUN sed -ri -e 's!/var/www/!${APACHE_DOCUMENT_ROOT}!g' /etc/apache2/apache2.conf /etc/apache2/conf-available/*.conf
 
 EXPOSE 80
-CMD php artisan migrate --force && apache2-foreground
+CMD sh -c "php artisan migrate --force --seed && php artisan storage:link || true && php artisan serve --host=0.0.0.0 --port=$PORT"
