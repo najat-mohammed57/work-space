@@ -404,10 +404,15 @@
 
 
                                 <ul class="list-unstyled feature-list mb-4 flex-grow-1">
-                                    @foreach($service->features->take(4) as $feature)
-                                        <li><i class="fas fa-check"></i> {{ $feature->name }}</li>
-                                    @endforeach
-                                </ul>
+    @forelse($service->features->take(4) as $feature)
+        <li><i class="fas fa-check"></i> {{ $feature->name }}</li>
+    @empty
+        <li><i class="fas fa-check"></i> Power outlets</li>
+        <li><i class="fas fa-check"></i> Ergonomic chair</li>
+        <li><i class="fas fa-check"></i> Ultra Fiber</li>
+        <li><i class="fas fa-check"></i> Free Buffet</li>
+    @endforelse
+</ul>
 
                                 <div class="d-flex justify-content-between align-items-center mt-auto pt-3 border-top">
                                     <div>
